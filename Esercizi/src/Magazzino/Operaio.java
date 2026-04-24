@@ -16,7 +16,7 @@ public class Operaio extends Thread {
     public void run() {
         try {
             for (int i = 1; i <= pacchiDaProdurre; i++) {
-                Thread.sleep(1000 + rand.nextInt(2000)); 
+                Thread.sleep(1000 + rand.nextInt(2000));
                 String pacco = getName() + i;
                 magazzino.deposita(pacco);
             }
