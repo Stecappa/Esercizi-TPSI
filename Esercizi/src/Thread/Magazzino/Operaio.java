@@ -1,4 +1,4 @@
-package Magazzino;
+package Thread.Magazzino;
 
 import java.util.Random;
 

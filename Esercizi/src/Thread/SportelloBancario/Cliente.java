@@ -1,4 +1,4 @@
-package SportelloBancario;
+package Thread.SportelloBancario;
 
 import java.util.Random;
 

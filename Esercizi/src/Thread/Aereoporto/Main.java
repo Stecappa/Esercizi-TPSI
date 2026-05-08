@@ -1,4 +1,4 @@
-package Aereoporto;
+package Thread.Aereoporto;
 
 public class Main {
 

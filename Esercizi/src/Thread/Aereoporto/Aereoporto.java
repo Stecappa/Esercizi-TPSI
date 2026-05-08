@@ -1,4 +1,4 @@
-package Aereoporto;
+package Thread.Aereoporto;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

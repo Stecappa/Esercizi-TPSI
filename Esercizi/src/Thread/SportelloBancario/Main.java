@@ -1,4 +1,4 @@
-package SportelloBancario;
+package Thread.SportelloBancario;
 
 import java.util.ArrayList;
 import java.util.List;

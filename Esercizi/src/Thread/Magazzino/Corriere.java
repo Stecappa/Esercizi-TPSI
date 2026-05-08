@@ -1,4 +1,4 @@
-package Magazzino;
+package Thread.Magazzino;
 
 import java.util.Random;
 
@@ -22,7 +22,7 @@ public class Corriere extends Thread {
 
                 if (pacco == null) {
                     tentativiFalliti++;
-                    System.out.println("Magazzino vuoto (tentativo " + tentativiFalliti + ")");
+                    System.out.println("Thread.Magazzino vuoto (tentativo " + tentativiFalliti + ")");
                 } else {
                     tentativiFalliti = 0;
                     Thread.sleep(2000 + rand.nextInt(2000)); // 2–4 sec

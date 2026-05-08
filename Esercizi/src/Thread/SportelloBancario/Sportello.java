@@ -1,4 +1,4 @@
-package SportelloBancario;
+package Thread.SportelloBancario;
 
 public class Sportello {
 
